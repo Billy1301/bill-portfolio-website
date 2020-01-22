@@ -13,7 +13,6 @@ body {
 
 .full-width {
     width: 1400px;
-    margin: 0 auto;
 }
 
 .half-width {
@@ -43,7 +42,8 @@ header p {
     color: white;
     height: 125px;
     margin-top: 75px;
-    font-size: 40px;
+    font-size: 40px;    
+    
 }
 
 nav ul li {
