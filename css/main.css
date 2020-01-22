@@ -1,12 +1,12 @@
 /**** BASE SYTLES ****/
 
 body {
-    font-family: 'Source Sans Pro', sans-serif;
-    color: #2b2b2b;
+    font-family: 'Montserrat', sans-serif;
+    color: #2b2b2b;    
 }
 
-#portfolio, #about, #contact {
-    height: 450px;
+#portfolio, #portfolio-2, #about, #contact, #about-me {
+    height: 420px;
 }
 
 /**** GRID ****/
@@ -32,6 +32,7 @@ body {
 /**** HEADER ****/
 
 header {
+    font-family: 'Montserrat', sans-serif;
     height: 55px;
     background-color: #1f202b;
 }
@@ -53,6 +54,7 @@ nav ul li {
 }
 
 nav ul li a {
+    font-family: 'Montserrat', sans-serif;
     text-transform: lowercase;
     color: white;
     padding-left: 30px
@@ -60,13 +62,15 @@ nav ul li a {
 
 
 /*** MAIN ***/
-
+main {
+    background-color: #1f202b;
+    color: white;
+}
 #cover-image {
     margin-top: -55px;
     background-image: url(../img/hero-background.png);
     background-size: cover;
-    height: 350px;
-      
+    height: 350px;      
 }
 
 #cover-image p {
@@ -76,10 +80,30 @@ nav ul li a {
 }
 
 #cover-image p span {
-    color: red;
+    color: #fa0075;
+}
+
+#portfolio {
+    margin-top: 25px;
 }
 
 #portfolio h2 {
     text-align: center;
+    color: #fa0075;
 }
+
+#about-me {
+    float: left;
+    background-image: url(../img/about-me.png);
+    background-size: cover;
+    height: 100%;
+    color: #1f202b;
+}
+
+#about-me h2 {
+    text-align: center;
+    color: #fa0075;
+}
+
+
 
