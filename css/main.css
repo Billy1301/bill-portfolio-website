@@ -12,26 +12,28 @@ body {
 /**** GRID ****/
 
 .full-width {
-    width: 1400px;
+    width: 100%;
+    padding-left: 10px;
+    float: clear;
 }
 
 .half-width {
-    width: 600px;
+    width: 45%;
     float: left;
+    padding-left: 10px;
 }
 
 .third-width {
-    width: 400px;
+    width: 33%;
     float: left;
+    padding-left: 10px;
 }
 
 /**** HEADER ****/
 
 header {
-    height: 350px;
+    height: 55px;
     background-color: #1f202b;
-    background-image: url(../img/hero-background.png);
-    background-size: cover;
 }
 
 header h2 {   
@@ -58,13 +60,25 @@ nav ul li a {
 
 
 /*** MAIN ***/
-/*
 #cover-image {
+    margin-top: -55px;
     background-image: url(../img/hero-background.png);
     background-size: cover;
     height: 350px;
-    color: white;    
+      
 }
-*/
 
+#cover-image p {
+    padding-top: 85px;
+    color: white;  
+    font-size: 55px;
+}
+
+#cover-image p span {
+    color: red;
+}
+
+#portfolio h2 {
+    text-align: center;
+}
 
