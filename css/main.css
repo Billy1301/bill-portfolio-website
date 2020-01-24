@@ -5,16 +5,24 @@ body {
     color: #2b2b2b;    
 }
 
-#portfolio, #portfolio-2, #about, #contact, #about-me {
+#portfolio, #portfolio-2, #about-me{
     height: 420px;
+    padding-left: 10px;
+}
+
+#contact {
+    height: 200px;
+}
+
+#footer {
+    height: 50px;
 }
 
 /**** GRID ****/
 
 .full-width {
     width: 100%;
-    padding-left: 10px;
-    float: clear;
+    margin: 0 auto;
 }
 
 .half-width {
@@ -26,15 +34,14 @@ body {
 .third-width {
     width: 33%;
     float: left;
-    padding-left: 10px;
 }
 
 /**** HEADER ****/
 
 header {
-    font-family: 'Montserrat', sans-serif;
     height: 55px;
     background-color: #1f202b;
+    padding-left: 10px;
 }
 
 header h2 {   
@@ -65,7 +72,14 @@ nav ul li a {
 main {
     background-color: #1f202b;
     color: white;
+    padding-left: 10px;
 }
+
+main h2 {
+    text-align: center;
+    color: #fa0075;
+}
+
 #cover-image {
     margin-top: -55px;
     background-image: url(../img/hero-background.png);
@@ -87,23 +101,31 @@ main {
     margin-top: 25px;
 }
 
-#portfolio h2 {
-    text-align: center;
-    color: #fa0075;
-}
-
 #about-me {
-    float: left;
     background-image: url(../img/about-me.png);
     background-size: cover;
-    height: 100%;
     color: #1f202b;
 }
 
-#about-me h2 {
+#contact {
     text-align: center;
-    color: #fa0075;
+    float: clear;
+    background-color: #1f202b;
 }
 
+#contact ul li {
+    display: inline-block;
+    padding-right: 15px;
+}
 
+#contact span {
+    color: white;
+}
+
+#footer {
+    text-align: center;
+    float: clear;
+    background-color: #1f202b;
+
+}
 
